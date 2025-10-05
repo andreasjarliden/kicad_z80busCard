@@ -2857,7 +2857,7 @@
 		)
 		(uuid "10d4002b-a22e-4c68-8000-21167622bcc7")
 	)
-	(label "{WR}"
+	(label "~{WR}"
 		(at 115.57 80.01 0)
 		(effects
 			(font
@@ -3127,7 +3127,7 @@
 		)
 		(uuid "681f64f8-803a-44cf-8b4e-bfc2eb9c86d9")
 	)
-	(label "{WR}"
+	(label "~{WR}"
 		(at 45.72 78.74 0)
 		(effects
 			(font
@@ -3377,7 +3377,7 @@
 		)
 		(uuid "ba75b548-613d-452c-8218-2ec90cd7a4cc")
 	)
-	(label "{WR}"
+	(label "~{WR}"
 		(at 153.67 78.74 0)
 		(effects
 			(font
@@ -3407,7 +3407,7 @@
 		)
 		(uuid "bfcefb2a-3684-468c-b4d7-3ed790884fad")
 	)
-	(label "{WR}"
+	(label "~{WR}"
 		(at 76.2 77.47 0)
 		(effects
 			(font
@@ -4059,7 +4059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.3252 172.72 0)
 			(effects
 				(font
