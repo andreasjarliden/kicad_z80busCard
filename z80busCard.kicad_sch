@@ -5,6 +5,872 @@
 	(uuid "38e6c7dd-e4e5-4fac-a332-e7467610bd5b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xx:74HC14"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC14"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Hex inverter schmitt trigger"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCMOS not inverter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC14_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_2_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_3_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_4_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_5_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_6_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74HC14_7_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC14_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -459,7 +1325,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2883,51 +3749,149 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "~{RESET} pull-up, button & power-on reset"
+		(exclude_from_sim no)
+		(at 34.544 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "405af535-aeda-41ef-895c-e4fab68e3cbf")
+	)
+	(text "Analog ~{RESET} inputs"
+		(exclude_from_sim no)
+		(at 70.866 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69ac0fe8-ab91-45ef-a57b-9854dddcb209")
+	)
+	(text "~{RESET} signal conditioning"
+		(exclude_from_sim no)
+		(at 105.156 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e204345-a230-4859-83e8-0d18dad6e47f")
+	)
 	(junction
-		(at 69.85 182.88)
+		(at 30.48 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02bc9589-8869-4f82-9c2c-6e97334dcdc8")
 	)
 	(junction
-		(at 194.31 132.08)
+		(at 222.25 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a0e7a3f-101f-4ae9-b277-50069e89d768")
 	)
 	(junction
-		(at 69.85 161.29)
+		(at 30.48 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ba49d00-2b65-44cd-b960-9e8b7e8594d1")
+		(uuid "24c25dea-890f-4311-a892-69a21765f902")
 	)
 	(junction
-		(at 69.85 149.86)
+		(at 134.62 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1f5861-a0af-4ec5-aecd-8f724b3b5f72")
+	)
+	(junction
+		(at 30.48 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35e9f62b-4459-4af7-99f7-7a2486e7b0d7")
 	)
 	(junction
-		(at 86.36 161.29)
+		(at 73.66 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e89e6bd-9abb-47f7-9e72-6061eef84b34")
+		(uuid "3ad974cf-2b80-4200-9fc9-a1c49ccb6637")
 	)
 	(junction
-		(at 69.85 172.72)
+		(at 30.48 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d19153b3-f475-4d26-96e8-3f72011bd84c")
+		(uuid "57bd9b87-c0d0-4706-9bad-4ef847d7189b")
 	)
 	(junction
-		(at 194.31 139.7)
+		(at 73.66 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7957b371-7aef-40f9-a9e7-cc8bd6975a3b")
+	)
+	(junction
+		(at 73.66 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a816f0-e5fe-40e5-941e-47f668751519")
+	)
+	(junction
+		(at 134.62 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975089f8-89fd-4572-bd89-db631c15bbe9")
+	)
+	(junction
+		(at 134.62 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf547aea-d788-42f9-bc78-f8b0a7fe65e6")
+	)
+	(junction
+		(at 73.66 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c003e272-24cc-4895-a6f9-1869f34eff0e")
+	)
+	(junction
+		(at 222.25 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f273db35-56e4-4d75-8870-e2401c238ac0")
 	)
+	(junction
+		(at 44.45 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdeedcd9-56b3-452e-a741-5115b36bae03")
+	)
+	(no_connect
+		(at 149.86 209.55)
+		(uuid "78ff16b8-7a45-4527-af72-f987adb877ca")
+	)
+	(no_connect
+		(at 149.86 195.58)
+		(uuid "b37ad610-0220-40f1-9c16-e54257c81f3a")
+	)
+	(no_connect
+		(at 149.86 184.15)
+		(uuid "c8ebb8be-5a06-44c7-9382-854d61fdfd27")
+	)
+	(no_connect
+		(at 149.86 170.18)
+		(uuid "ff206f07-22e5-47e8-9b51-c56c5f33f5bd")
+	)
 	(wire
 		(pts
-			(xy 62.23 184.15) (xy 62.23 182.88)
+			(xy 134.62 170.18) (xy 134.62 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000bff2e-780b-4fa4-a53a-d6f0252879c7")
+	)
+	(wire
+		(pts
+			(xy 22.86 173.99) (xy 22.86 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 182.88) (xy 69.85 182.88)
+			(xy 22.86 172.72) (xy 30.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2987,13 +3951,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 147.32) (xy 69.85 149.86)
+			(xy 30.48 143.51) (xy 30.48 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05ef6f70-79f9-4039-8559-0b39ba328e0f")
+	)
+	(wire
+		(pts
+			(xy 134.62 195.58) (xy 134.62 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0617c4f1-c6d8-45ae-832d-612520dccccf")
 	)
 	(wire
 		(pts
@@ -3047,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 149.86) (xy 69.85 149.86)
+			(xy 22.86 146.05) (xy 30.48 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3057,7 +4031,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 175.26 121.92)
+			(xy 226.06 119.38) (xy 203.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +4101,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 165.1) (xy 86.36 161.29)
+			(xy 44.45 161.29) (xy 44.45 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 149.86) (xy 69.85 151.13)
+			(xy 30.48 146.05) (xy 30.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 149.86) (xy 76.2 149.86)
+			(xy 30.48 146.05) (xy 36.83 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 139.7) (xy 194.31 139.7)
+			(xy 215.9 137.16) (xy 222.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +4381,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 161.29) (xy 100.33 161.29)
+			(xy 44.45 157.48) (xy 73.66 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3424,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "41a6ee08-17ea-492f-a480-64e8f4adb23e")
+	)
+	(wire
+		(pts
+			(xy 73.66 143.51) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d753f4-9253-4bf1-a183-3d162f497742")
 	)
 	(wire
 		(pts
@@ -3467,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 139.7) (xy 201.93 139.7)
+			(xy 222.25 137.16) (xy 229.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3477,13 +4461,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 161.29) (xy 69.85 162.56)
+			(xy 30.48 157.48) (xy 30.48 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46a567f2-63f1-485a-8da0-aa69ac419c89")
+	)
+	(wire
+		(pts
+			(xy 132.08 170.18) (xy 134.62 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d9d988-ceb1-4cd2-ab20-32aa1eeda65f")
 	)
 	(wire
 		(pts
@@ -3497,7 +4491,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 132.08) (xy 198.12 132.08)
+			(xy 73.66 148.59) (xy 73.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edd23d1-c40e-453e-8d88-12ad6d88869a")
+	)
+	(wire
+		(pts
+			(xy 222.25 129.54) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3607,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 161.29) (xy 69.85 161.29)
+			(xy 44.45 157.48) (xy 30.48 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 158.75) (xy 69.85 161.29)
+			(xy 30.48 154.94) (xy 30.48 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 182.88) (xy 76.2 182.88)
+			(xy 30.48 172.72) (xy 36.83 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +4901,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 162.56 124.46)
+			(xy 190.5 114.3) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3917,7 +4921,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 147.32) (xy 194.31 147.32)
+			(xy 215.9 144.78) (xy 222.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +4971,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 189.23 124.46)
+			(xy 205.74 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 86.36 172.72)
+			(xy 30.48 168.91) (xy 44.45 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4044,6 +5048,16 @@
 			(type default)
 		)
 		(uuid "92f95071-c33c-49d5-af83-cef3df54101e")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 73.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d69dcf-1a43-484b-b37f-cc7be72c27a7")
 	)
 	(wire
 		(pts
@@ -4104,6 +5118,16 @@
 			(type default)
 		)
 		(uuid "9a296f8a-b1ef-41f8-b445-ab5c335275dd")
+	)
+	(wire
+		(pts
+			(xy 114.3 176.53) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5eb824-61d9-4391-98b2-b07749d1d2aa")
 	)
 	(wire
 		(pts
@@ -4197,7 +5221,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 182.88) (xy 69.85 184.15)
+			(xy 30.48 172.72) (xy 30.48 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4317,6 +5341,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b553a48b-4c10-4ce2-a9b5-fb3f23df53d6")
+	)
+	(wire
+		(pts
 			(xy 71.12 81.28) (xy 73.66 81.28)
 		)
 		(stroke
@@ -4337,6 +5371,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 140.97) (xy 73.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f2be66-7c2d-4247-91ce-c6c05ca0e75b")
+	)
+	(wire
+		(pts
 			(xy 86.36 60.96) (xy 95.25 60.96)
 		)
 		(stroke
@@ -4347,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 201.93 116.84)
+			(xy 190.5 114.3) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 147.32) (xy 62.23 149.86)
+			(xy 22.86 143.51) (xy 22.86 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4467,7 +5511,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 132.08) (xy 194.31 139.7)
+			(xy 222.25 129.54) (xy 222.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4477,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 147.32) (xy 194.31 139.7)
+			(xy 222.25 144.78) (xy 222.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4507,6 +5551,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 184.15) (xy 134.62 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce67b5ca-2746-4b89-9211-0158292d1710")
+	)
+	(wire
+		(pts
 			(xy 49.53 91.44) (xy 58.42 91.44)
 		)
 		(stroke
@@ -4517,7 +5571,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 124.46) (xy 198.12 121.92)
+			(xy 226.06 121.92) (xy 226.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4727,6 +5781,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 184.15) (xy 119.38 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5d56ac-8ffa-44fe-bdb6-bbf3535d7e7c")
+	)
+	(wire
+		(pts
 			(xy 49.53 58.42) (xy 58.42 58.42)
 		)
 		(stroke
@@ -4747,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 194.31 132.08)
+			(xy 217.17 129.54) (xy 222.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4777,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 121.92) (xy 175.26 124.46)
+			(xy 203.2 119.38) (xy 203.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4817,7 +5881,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 69.85 182.88)
+			(xy 30.48 168.91) (xy 30.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4955,6 +6019,16 @@
 		)
 		(uuid "10d4002b-a22e-4c68-8000-21167622bcc7")
 	)
+	(label "+5V"
+		(at 93.98 166.37 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1426595a-15a4-4cf6-b216-1e981df5557c")
+	)
 	(label "A10"
 		(at 73.66 101.6 0)
 		(effects
@@ -5024,6 +6098,16 @@
 			(justify left bottom)
 		)
 		(uuid "1c91fe09-a240-4633-98c4-9a8578da72ab")
+	)
+	(label "+5V"
+		(at 114.3 176.53 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ce0e628-42ea-4a46-99e6-cfe0c39d5617")
 	)
 	(label "D4"
 		(at 73.66 66.04 0)
@@ -5125,6 +6209,16 @@
 		)
 		(uuid "2adbcda6-6bd6-459f-a73b-616bac6645c3")
 	)
+	(label "~{RESET}"
+		(at 123.19 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f25e0c0-288c-4e64-b2ef-b3ef2f6f9ede")
+	)
 	(label "~{CE_2}"
 		(at 86.36 101.6 0)
 		(effects
@@ -5165,8 +6259,8 @@
 		)
 		(uuid "3446d75c-d8d7-4b04-b018-e5a51ecb8ff4")
 	)
-	(label "~{RESET}"
-		(at 100.33 161.29 0)
+	(label "~{RESET_INPUT}"
+		(at 49.53 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5906,7 +7000,7 @@
 		(uuid "acf6005d-8038-48ea-b63f-82aa6d7d1448")
 	)
 	(label "GND"
-		(at 201.93 139.7 180)
+		(at 229.87 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6185,6 +7279,16 @@
 		)
 		(uuid "cfb4c966-3b46-499c-b893-967f42c591ef")
 	)
+	(label "GND"
+		(at 93.98 191.77 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd3f763-dfb4-4f4d-a0b4-623beb45d442")
+	)
 	(label "~{M1}"
 		(at 49.53 68.58 0)
 		(effects
@@ -6285,8 +7389,18 @@
 		)
 		(uuid "e3f47656-e1c9-414c-ac8f-9fad92403df3")
 	)
+	(label "~{RESET_INPUT}"
+		(at 92.71 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e507df91-e9d8-4e17-abd1-5ee9f7e46006")
+	)
 	(label "+5V"
-		(at 201.93 116.84 0)
+		(at 229.87 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6294,6 +7408,16 @@
 			(justify left bottom)
 		)
 		(uuid "e55272ac-5db1-43b4-8564-af1ec72b6cd1")
+	)
+	(label "GND"
+		(at 114.3 184.15 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e76b6d76-3f85-41a1-940c-23c4b115987e")
 	)
 	(label "D1"
 		(at 73.66 58.42 0)
@@ -6497,7 +7621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 128.27 0)
+		(at 217.17 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6508,7 +7632,7 @@
 		(fields_autoplaced yes)
 		(uuid "0415711e-164e-4df5-844e-3f6e9866fffd")
 		(property "Reference" "R2"
-			(at 191.77 126.9999 0)
+			(at 219.71 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6519,7 +7643,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 191.77 129.5399 0)
+			(at 219.71 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6530,7 +7654,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 187.452 128.27 90)
+			(at 215.392 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6541,7 +7665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 128.27 0)
+			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +7676,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 128.27 0)
+			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +7897,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 154.94 0)
+		(at 30.48 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6784,7 +7908,7 @@
 		(fields_autoplaced yes)
 		(uuid "093616c5-cbde-405a-9a24-2a1b33b88fa9")
 		(property "Reference" "R1"
-			(at 72.39 153.6699 0)
+			(at 33.02 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6795,7 +7919,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 72.39 156.2099 0)
+			(at 33.02 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6806,7 +7930,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 68.072 154.94 90)
+			(at 28.702 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +7941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 154.94 0)
+			(at 30.48 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6828,7 +7952,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 154.94 0)
+			(at 30.48 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,8 +8172,241 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC14")
+		(at 93.98 179.07 0)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22539dbd-c01b-411d-932a-12ddf26d27d7")
+		(property "Reference" "U1"
+			(at 100.33 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 100.33 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "54e02a1a-0c6b-4260-820c-b1e7c6ed44c3")
+		)
+		(pin "2"
+			(uuid "ccb23d46-0564-4c95-97a5-7556bef0cd58")
+		)
+		(pin "6"
+			(uuid "48673b69-4936-48f7-b49f-43bccfa58b7f")
+		)
+		(pin "5"
+			(uuid "0c4b2880-d02e-4d93-8bd2-3d17a24b7d5c")
+		)
+		(pin "4"
+			(uuid "0f72507d-c3be-4dc1-904c-280e94cab058")
+		)
+		(pin "7"
+			(uuid "0535657e-0fbf-4ea0-8b5c-59bae6c46c7b")
+		)
+		(pin "13"
+			(uuid "3628b295-abdb-4452-8239-9f462b7e6ae7")
+		)
+		(pin "10"
+			(uuid "5311ec80-ed64-4841-93d1-3fe2ce219819")
+		)
+		(pin "14"
+			(uuid "7b924b7b-50d0-415f-9771-396aae5c8758")
+		)
+		(pin "12"
+			(uuid "ffacb41b-08a5-4398-90c3-0440ce7969e8")
+		)
+		(pin "8"
+			(uuid "e0edfd6f-32b4-4a06-b8a8-9d5388eb20d1")
+		)
+		(pin "9"
+			(uuid "f6977a8a-4973-434d-8e9d-766f4072a58b")
+		)
+		(pin "1"
+			(uuid "d56e8aa9-e640-4b82-8edb-1b695507b0d4")
+		)
+		(pin "11"
+			(uuid "c0070407-9d2d-4aee-95c9-29b90e8fb6e3")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 142.24 209.55 0)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e0d315-ddb2-4136-ac0d-941ab566f6e9")
+		(property "Reference" "U1"
+			(at 142.24 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 142.24 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 142.24 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 142.24 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f18f2b26-ba0a-41e2-9e28-fd459e03f1b5")
+		)
+		(pin "1"
+			(uuid "1e6aa7fc-5a7e-401d-9f95-f0a3aab6f44f")
+		)
+		(pin "13"
+			(uuid "4f9f1939-be5c-4c03-a417-79dd1ea0d7f1")
+		)
+		(pin "6"
+			(uuid "1ae1f417-8ded-429f-8d23-433eb69c894c")
+		)
+		(pin "8"
+			(uuid "fc92cb92-92be-4944-a3c3-78f05fb4d1da")
+		)
+		(pin "2"
+			(uuid "314d838a-68b0-47f1-b126-b278cd97c067")
+		)
+		(pin "12"
+			(uuid "e30533e2-8165-4568-aa69-c6397f23b2ed")
+		)
+		(pin "3"
+			(uuid "b1f18baf-2e9c-46f4-9177-aa08211b2106")
+		)
+		(pin "9"
+			(uuid "8ea16632-4f84-4153-baec-cfba8c615c2d")
+		)
+		(pin "4"
+			(uuid "e88f47b0-4a24-4dd8-bdaf-6eb6708fe37e")
+		)
+		(pin "14"
+			(uuid "4f1b3b99-d7c6-4807-ad09-5f3805e83c01")
+		)
+		(pin "7"
+			(uuid "4048374b-49bb-4595-9b0f-146b5313bcc1")
+		)
+		(pin "10"
+			(uuid "f6615182-7c5e-467f-bb53-43511f10fba3")
+		)
+		(pin "11"
+			(uuid "0dcd8018-c8e9-40a1-96dd-c9c07b81fc07")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 147.32 0)
+		(at 22.86 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7060,7 +8417,7 @@
 		(fields_autoplaced yes)
 		(uuid "28bf662c-7f72-402c-8001-3eff1850c154")
 		(property "Reference" "#FLG01"
-			(at 62.23 145.415 0)
+			(at 22.86 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,7 +8428,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 142.24 0)
+			(at 22.86 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7081,7 +8438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 147.32 0)
+			(at 22.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,7 +8449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 147.32 0)
+			(at 22.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +8460,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 147.32 0)
+			(at 22.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,8 +8483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 168.91 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 68.58 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7136,31 +8493,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44253490-1fd0-411e-9567-2998a02a7995")
-		(property "Reference" "C1"
-			(at 90.17 167.6399 0)
+		(uuid "2ce1a172-6a27-41b2-98ab-6deb94f4e7a4")
+		(property "Reference" "J6"
+			(at 69.215 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 90.17 170.1799 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 69.215 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 87.3252 172.72 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,7 +8526,211 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 168.91 0)
+			(at 68.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 68.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a83b675-fb4b-44fc-9a22-74a118a1e5fe")
+		)
+		(pin "3"
+			(uuid "e9b4dc2e-71bd-41e7-8bfc-6b8404f14795")
+		)
+		(pin "2"
+			(uuid "e07f33bc-d8c6-4972-b193-6c06c5af1cfa")
+		)
+		(pin "4"
+			(uuid "bdc1e618-547b-4aef-8f12-98cf8114713b")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 142.24 170.18 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b8be967-bdcb-46c7-9058-5499bc95ee08")
+		(property "Reference" "U1"
+			(at 142.24 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 142.24 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f18f2b26-ba0a-41e2-9e28-fd459e03f1b5")
+		)
+		(pin "1"
+			(uuid "1e6aa7fc-5a7e-401d-9f95-f0a3aab6f44f")
+		)
+		(pin "13"
+			(uuid "4f9f1939-be5c-4c03-a417-79dd1ea0d7f1")
+		)
+		(pin "6"
+			(uuid "1ae1f417-8ded-429f-8d23-433eb69c894c")
+		)
+		(pin "8"
+			(uuid "fc92cb92-92be-4944-a3c3-78f05fb4d1da")
+		)
+		(pin "2"
+			(uuid "314d838a-68b0-47f1-b126-b278cd97c067")
+		)
+		(pin "12"
+			(uuid "e30533e2-8165-4568-aa69-c6397f23b2ed")
+		)
+		(pin "3"
+			(uuid "b1f18baf-2e9c-46f4-9177-aa08211b2106")
+		)
+		(pin "9"
+			(uuid "8ea16632-4f84-4153-baec-cfba8c615c2d")
+		)
+		(pin "4"
+			(uuid "e88f47b0-4a24-4dd8-bdaf-6eb6708fe37e")
+		)
+		(pin "14"
+			(uuid "4f1b3b99-d7c6-4807-ad09-5f3805e83c01")
+		)
+		(pin "7"
+			(uuid "4048374b-49bb-4595-9b0f-146b5313bcc1")
+		)
+		(pin "10"
+			(uuid "f6615182-7c5e-467f-bb53-43511f10fba3")
+		)
+		(pin "11"
+			(uuid "0dcd8018-c8e9-40a1-96dd-c9c07b81fc07")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44253490-1fd0-411e-9567-2998a02a7995")
+		(property "Reference" "C1"
+			(at 48.26 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 48.26 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 45.4152 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7182,7 +8741,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 168.91 0)
+			(at 44.45 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7208,8 +8767,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 147.32 0)
+		(lib_id "power:GND")
+		(at 132.08 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7218,9 +8777,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e661abe-a19b-4dc6-b148-2b1bc082399a")
-		(property "Reference" "#PWR02"
-			(at 69.85 151.13 0)
+		(uuid "45b121bb-6b4c-41d8-806c-2afcd4cdbaf6")
+		(property "Reference" "#PWR03"
+			(at 132.08 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,8 +8789,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 69.85 142.24 0)
+		(property "Value" "GND"
+			(at 132.08 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7241,7 +8800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 147.32 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +8811,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 147.32 0)
+			(at 132.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccc55163-86e5-4d5a-9cd1-71fd39a48df1")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e661abe-a19b-4dc6-b148-2b1bc082399a")
+		(property "Reference" "#PWR02"
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 30.48 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7263,7 +8900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 147.32 0)
+			(at 30.48 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,6 +9112,238 @@
 				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
 					(reference "J1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 142.24 184.15 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eb4f974-7cba-4352-a109-4a1736ff0541")
+		(property "Reference" "U1"
+			(at 142.24 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 142.24 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 142.24 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 142.24 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f18f2b26-ba0a-41e2-9e28-fd459e03f1b5")
+		)
+		(pin "1"
+			(uuid "1e6aa7fc-5a7e-401d-9f95-f0a3aab6f44f")
+		)
+		(pin "13"
+			(uuid "4f9f1939-be5c-4c03-a417-79dd1ea0d7f1")
+		)
+		(pin "6"
+			(uuid "1ae1f417-8ded-429f-8d23-433eb69c894c")
+		)
+		(pin "8"
+			(uuid "fc92cb92-92be-4944-a3c3-78f05fb4d1da")
+		)
+		(pin "2"
+			(uuid "314d838a-68b0-47f1-b126-b278cd97c067")
+		)
+		(pin "12"
+			(uuid "e30533e2-8165-4568-aa69-c6397f23b2ed")
+		)
+		(pin "3"
+			(uuid "b1f18baf-2e9c-46f4-9177-aa08211b2106")
+		)
+		(pin "9"
+			(uuid "8ea16632-4f84-4153-baec-cfba8c615c2d")
+		)
+		(pin "4"
+			(uuid "e88f47b0-4a24-4dd8-bdaf-6eb6708fe37e")
+		)
+		(pin "14"
+			(uuid "4f1b3b99-d7c6-4807-ad09-5f3805e83c01")
+		)
+		(pin "7"
+			(uuid "4048374b-49bb-4595-9b0f-146b5313bcc1")
+		)
+		(pin "10"
+			(uuid "f6615182-7c5e-467f-bb53-43511f10fba3")
+		)
+		(pin "11"
+			(uuid "0dcd8018-c8e9-40a1-96dd-c9c07b81fc07")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 115.57 157.48 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5e6920-cb89-44b1-a22f-44b8813e42f2")
+		(property "Reference" "U1"
+			(at 115.57 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 115.57 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 115.57 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 115.57 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 115.57 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "62c92162-f0a2-4aa5-99a1-c10a0f3631aa")
+		)
+		(pin "2"
+			(uuid "ccb23d46-0564-4c95-97a5-7556bef0cd59")
+		)
+		(pin "6"
+			(uuid "48673b69-4936-48f7-b49f-43bccfa58b80")
+		)
+		(pin "5"
+			(uuid "0c4b2880-d02e-4d93-8bd2-3d17a24b7d5d")
+		)
+		(pin "4"
+			(uuid "83ebae3f-b092-4146-96ff-86a6017be2bd")
+		)
+		(pin "7"
+			(uuid "d538439f-d55c-49af-a89e-588d2a84535c")
+		)
+		(pin "13"
+			(uuid "3628b295-abdb-4452-8239-9f462b7e6ae8")
+		)
+		(pin "10"
+			(uuid "5311ec80-ed64-4841-93d1-3fe2ce21981a")
+		)
+		(pin "14"
+			(uuid "f537e997-d8fb-4fd5-9a23-fa203df73147")
+		)
+		(pin "12"
+			(uuid "ffacb41b-08a5-4398-90c3-0440ce7969e9")
+		)
+		(pin "8"
+			(uuid "e0edfd6f-32b4-4a06-b8a8-9d5388eb20d2")
+		)
+		(pin "9"
+			(uuid "f6977a8a-4973-434d-8e9d-766f4072a58c")
+		)
+		(pin "1"
+			(uuid "d56e8aa9-e640-4b82-8edb-1b695507b0d5")
+		)
+		(pin "11"
+			(uuid "c0070407-9d2d-4aee-95c9-29b90e8fb6e4")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -7757,7 +9626,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 128.27 0)
+		(at 226.06 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7768,7 +9637,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f94eab8-71dc-4eeb-bbcf-d9794ab5c356")
 		(property "Reference" "R3"
-			(at 200.66 126.9999 0)
+			(at 228.6 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7779,7 +9648,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 200.66 129.5399 0)
+			(at 228.6 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7790,7 +9659,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.342 128.27 90)
+			(at 224.282 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +9670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 128.27 0)
+			(at 226.06 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7812,7 +9681,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 128.27 0)
+			(at 226.06 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +9708,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 185.42 180)
+		(at 36.83 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7849,7 +9718,7 @@
 		(dnp no)
 		(uuid "adf13080-f073-4032-a204-800175f753bf")
 		(property "Reference" "H2"
-			(at 78.74 185.4199 0)
+			(at 39.37 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7860,7 +9729,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 78.74 187.9599 0)
+			(at 39.37 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7871,7 +9740,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad_TopBottom"
-			(at 76.2 185.42 0)
+			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +9751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 185.42 0)
+			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +9762,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 76.2 185.42 0)
+			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7916,8 +9785,124 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC14")
+		(at 142.24 195.58 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b010d35a-2150-4302-b6e7-2c4ed79d074a")
+		(property "Reference" "U1"
+			(at 142.24 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 142.24 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f18f2b26-ba0a-41e2-9e28-fd459e03f1b5")
+		)
+		(pin "1"
+			(uuid "1e6aa7fc-5a7e-401d-9f95-f0a3aab6f44f")
+		)
+		(pin "13"
+			(uuid "4f9f1939-be5c-4c03-a417-79dd1ea0d7f1")
+		)
+		(pin "6"
+			(uuid "1ae1f417-8ded-429f-8d23-433eb69c894c")
+		)
+		(pin "8"
+			(uuid "fc92cb92-92be-4944-a3c3-78f05fb4d1da")
+		)
+		(pin "2"
+			(uuid "314d838a-68b0-47f1-b126-b278cd97c067")
+		)
+		(pin "12"
+			(uuid "e30533e2-8165-4568-aa69-c6397f23b2ed")
+		)
+		(pin "3"
+			(uuid "b1f18baf-2e9c-46f4-9177-aa08211b2106")
+		)
+		(pin "9"
+			(uuid "8ea16632-4f84-4153-baec-cfba8c615c2d")
+		)
+		(pin "4"
+			(uuid "e88f47b0-4a24-4dd8-bdaf-6eb6708fe37e")
+		)
+		(pin "14"
+			(uuid "4f1b3b99-d7c6-4807-ad09-5f3805e83c01")
+		)
+		(pin "7"
+			(uuid "4048374b-49bb-4595-9b0f-146b5313bcc1")
+		)
+		(pin "10"
+			(uuid "f6615182-7c5e-467f-bb53-43511f10fba3")
+		)
+		(pin "11"
+			(uuid "0dcd8018-c8e9-40a1-96dd-c9c07b81fc07")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 184.15 180)
+		(at 22.86 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7928,7 +9913,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3521801-e8f4-4b68-8f80-4ad47c2cd67b")
 		(property "Reference" "#FLG02"
-			(at 62.23 186.055 0)
+			(at 22.86 175.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7939,7 +9924,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 189.23 0)
+			(at 22.86 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7949,7 +9934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 184.15 0)
+			(at 22.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +9945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 184.15 0)
+			(at 22.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +9956,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 184.15 0)
+			(at 22.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7995,7 +9980,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
-		(at 170.18 139.7 90)
+		(at 198.12 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8006,7 +9991,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc4163d9-060b-43c7-a540-2852ca9f2bc9")
 		(property "Reference" "J5"
-			(at 156.21 138.4299 90)
+			(at 184.15 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8017,7 +10002,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-			(at 156.21 140.9699 90)
+			(at 184.15 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8028,7 +10013,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
-			(at 167.64 135.89 0)
+			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +10024,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 170.18 139.7 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +10035,7 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 170.18 139.7 0)
+			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +10057,7 @@
 		(pin "A12"
 			(uuid "eaf01c56-7824-418b-bdf0-9e6f96dcc6b4")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "540e9801-c055-416b-903d-a7fc02a4847c")
 		)
 		(pin "A9"
@@ -8092,7 +10077,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 69.85 167.64 90)
+		(at 30.48 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8103,7 +10088,7 @@
 		(fields_autoplaced yes)
 		(uuid "be4a8ec1-2517-43b3-960b-2040e38be917")
 		(property "Reference" "SW1"
-			(at 71.12 166.3699 90)
+			(at 31.75 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8114,7 +10099,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 71.12 168.9099 90)
+			(at 31.75 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8125,7 +10110,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 64.77 167.64 0)
+			(at 25.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +10121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 167.64 0)
+			(at 25.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8147,7 +10132,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 167.64 0)
+			(at 30.48 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,7 +10159,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 147.32 0)
+		(at 36.83 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8185,7 +10170,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0cfd8c5-a45b-4c06-b59a-9ab9a298fc64")
 		(property "Reference" "H1"
-			(at 78.74 144.7799 0)
+			(at 39.37 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8196,7 +10181,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 78.74 147.3199 0)
+			(at 39.37 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8207,7 +10192,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad_TopBottom"
-			(at 76.2 147.32 0)
+			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +10203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 147.32 0)
+			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +10214,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 76.2 147.32 0)
+			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8240,7 +10225,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c52bdb71-3500-45a3-872d-7b39597b6cae")
+			(uuid "c52bdb71-3500-45a3-872d-7b39597b6caf")
 		)
 		(instances
 			(project "z80busCard"
@@ -8253,7 +10238,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 184.15 0)
+		(at 30.48 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8264,7 +10249,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc85279f-5b08-4866-be65-63a89e2700b2")
 		(property "Reference" "#PWR01"
-			(at 69.85 190.5 0)
+			(at 30.48 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8275,7 +10260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 189.23 0)
+			(at 30.48 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8285,7 +10270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 184.15 0)
+			(at 30.48 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +10281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 184.15 0)
+			(at 30.48 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +10292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 184.15 0)
+			(at 30.48 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,6 +10309,87 @@
 			(project "z80busCard"
 				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d473599e-a800-4712-9dd0-01b9f251152e")
+		(property "Reference" "C110"
+			(at 120.015 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 120.015 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 120.3452 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99439d26-f68f-45da-b430-13b4f02f0f2f")
+		)
+		(pin "2"
+			(uuid "aea51af9-c47a-4c68-b55e-21ad388861ee")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -8417,6 +10483,122 @@
 			(project "z80busCard"
 				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
 					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 100.33 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea93b026-07f9-4435-aaa0-487a0f0b4261")
+		(property "Reference" "U1"
+			(at 100.33 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 100.33 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "54e02a1a-0c6b-4260-820c-b1e7c6ed44c8")
+		)
+		(pin "2"
+			(uuid "2bfe2334-b09d-4218-9258-6c86b2984183")
+		)
+		(pin "6"
+			(uuid "48673b69-4936-48f7-b49f-43bccfa58b84")
+		)
+		(pin "5"
+			(uuid "0c4b2880-d02e-4d93-8bd2-3d17a24b7d61")
+		)
+		(pin "4"
+			(uuid "0f72507d-c3be-4dc1-904c-280e94cab05d")
+		)
+		(pin "7"
+			(uuid "d538439f-d55c-49af-a89e-588d2a845360")
+		)
+		(pin "13"
+			(uuid "3628b295-abdb-4452-8239-9f462b7e6aec")
+		)
+		(pin "10"
+			(uuid "5311ec80-ed64-4841-93d1-3fe2ce21981e")
+		)
+		(pin "14"
+			(uuid "f537e997-d8fb-4fd5-9a23-fa203df7314b")
+		)
+		(pin "12"
+			(uuid "ffacb41b-08a5-4398-90c3-0440ce7969ed")
+		)
+		(pin "8"
+			(uuid "e0edfd6f-32b4-4a06-b8a8-9d5388eb20d6")
+		)
+		(pin "9"
+			(uuid "f6977a8a-4973-434d-8e9d-766f4072a590")
+		)
+		(pin "1"
+			(uuid "334caaab-8b9f-4021-9cd4-f3539934aa65")
+		)
+		(pin "11"
+			(uuid "c0070407-9d2d-4aee-95c9-29b90e8fb6e8")
+		)
+		(instances
+			(project "z80busCard"
+				(path "/38e6c7dd-e4e5-4fac-a332-e7467610bd5b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
